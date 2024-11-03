@@ -17,6 +17,7 @@ import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 import iconShadow from "leaflet/dist/images/marker-shadow.png";
 
+const icon = L.icon({ iconUrl: "/images/marker-icon.png" });
 const RED_MARKER_ICON_URL =
     "https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-red.png";
 const redIcon = L.icon({
@@ -68,6 +69,7 @@ export default function Map() {
                 />
                 {cities.map((city) => (
                     <Marker
+                        icon={icon}
                         position={[city.position.lat, city.position.lng]}
                         key={city.id}
                     >
