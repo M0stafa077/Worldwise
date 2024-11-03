@@ -1,9 +1,9 @@
 {
-    "name": "08.worldwise",
+    "homepage": "https://M0stafa077.github.io/Worldwise",
+    "name": "worldwise",
     "private": true,
     "version": "0.0.0",
     "type": "module",
-    "homepage": "https://M0stafa077.github.io/Worldwise",
     "scripts": {
         "dev": "vite",
         "build": "vite build",

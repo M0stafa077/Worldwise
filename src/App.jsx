@@ -20,7 +20,7 @@ export default function App() {
     return (
         <AuthProvider>
             <CitiesProvider>
-                <BrowserRouter>
+                <BrowserRouter basename="Worldwise">
                     <Suspense fallback={<SpinnerFullPage />}>
                         <Routes>
                             <Route index element={<Homepage />} />
