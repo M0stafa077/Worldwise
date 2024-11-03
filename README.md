@@ -2,6 +2,8 @@
 
 **Worldwise** is a web application built with React.js that allows users to save and manage places they've visited. By selecting locations on a map, users can create a personalized list of cities and places they've explored.
 
+**Try the app** https://m0stafa077.github.io/Worldwise/
+
 ## Features
 
 -   **Interactive Map Selection**: Users can add a place by clicking directly on the map, making it easy to select specific locations without manually inputting coordinates or city names.
